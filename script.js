@@ -53,6 +53,7 @@ addBtn.addEventListener('click',e=>{
 		tds.push(todo);	
 		localStorage.setItem('todos',JSON.stringify(tds));
 		loadTODOSandAddToDOM();
+		todoInp.value = '';
 	}
 });
 
